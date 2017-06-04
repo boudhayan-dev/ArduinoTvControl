@@ -1,0 +1,5 @@
+Guys , do one thing .
+Open the serial terminal desktop app and connect it to the Bluetooth device .
+Dont send anything through terminal . Use it just to connect to the Bluetooth device .
+Now , through you C# code  send the values . 
+I think serial terminal is needed to connect to the device .
