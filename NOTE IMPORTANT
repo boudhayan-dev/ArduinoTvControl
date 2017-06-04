@@ -1,5 +1,10 @@
-Guys , do one thing .
-Open the serial terminal desktop app and connect it to the Bluetooth device .
-Dont send anything through terminal . Use it just to connect to the Bluetooth device .
-Now , through you C# code  send the values . 
-I think serial terminal is needed to connect to the device .
+This NOTE is for the guys who will be implementing the AI-Gesture recognition part.
+
+From what I remember and what i have researched online , I think if you carry out the following setup , you should be 
+successful in transmitting the characters via bluetooth .
+
+* Connect the bluetooth(HC_06) module to the Desktop Serial Terminal App ( analogous to the moble app that I've used).
+* Keep it running in the background .
+* Now Transmit the characters using your C# script in the same COM port to which the HC-06 is paired/connected.
+
+Give this a try . It outta work !
